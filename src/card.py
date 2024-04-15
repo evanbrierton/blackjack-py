@@ -1,5 +1,6 @@
-from suit import Suit;
+from suit import Suit
 from rank import Rank
+
 
 class Card:
     def __init__(self, suit: Suit, rank: Rank):
@@ -11,4 +12,3 @@ class Card:
 
     def __str__(self):
         return self.__repr__()
-    

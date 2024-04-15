@@ -29,4 +29,3 @@ match game.outcome():
         print("You lose!")
     case Outcome.TIE:
         print("It's a tie!")
-        

@@ -1,5 +1,6 @@
 from enum import Enum
 
+
 class Suit(Enum):
     HEARTS = '♥'
     DIAMONDS = '♦'
@@ -8,4 +9,3 @@ class Suit(Enum):
 
     def __str__(self):
         return self.value.lower()
-    
